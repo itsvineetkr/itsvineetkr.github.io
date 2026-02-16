@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vineet Kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#homepage" class="name">Vineet</a>
+            <ul>
+                <li><a href="#about">about,</a></li>
+                <li><a href="#projects">projects,</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="homepage" id="homepage">
+        <div class="homepage-content">
+            <div class="title-name">    
+                Vineet Kumar
+            </div>
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="" class="theme">light</a></li>
+            </ul>
+        </div>
+        <div class="homepage-footer">
+            <div class="left">
+                Software Developer <br> Based in India
+            </div>
+            <ul>
+                <li><a href="#about">about,</a></li>
+                <li><a href="#projects">projects,</a></li>
+                <li><a href="#contact">contact,</a></li>
+                <li><a href="" class="theme">light</a></li>
+            </ul>
+            <div class="right">
+                currently at <br> Tensor Search
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="title">
+            about
+        </div>
+        <p>
+            <span>
+                I'm a Computer Science and Engineering student pursuing my bachelor's at IET Lucknow with a strong interest in AI, software development, and problem-solving. I enjoy exploring Generative AI, Web Development, Machine Learning, and API development while continuously learning and refining my skills. Currently, I'm gaining hands-on experience as a Data Science Intern at Tensor Solution while freelancing.
+            </span>
+        </p>
+    </section>
+
+
+    <section class="experience">
+        <div class="experience-container">
+            <div class="title">
+                experience
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-circle">2025</div>
+                    <div class="timeline-content">
+                        <div class="job-title">
+                            Data Scientist Intern
+                            <span class="company">Tensor Solution Tech</span>
+                        </div>
+                        <div class="job-description">
+                            • As a Data Scientist Intern at Tensor Solution Tech Pvt. Ltd., I am contributing to AI-driven search solutions. I explore and implement AI techniques, including agents and tools to enhance search capabilities.<br>
+                            • Developed advanced search systems supporting vector, keyword, image-to-image, text-to-image, speech-to-speech, speech-to-text, and text-to-speech queries, enabling fast and multi-modal retrieval.<br>
+                            • Designed and deployed robust FastAPI-based microservices for tasks like image captioning, OCR, translation, language detection, and audio-text conversions.<br>
+                            • Integrated LLMs and ML models from Hugging Face and other sources to power intelligent tool-calling and agent-style reasoning in conversational search pipelines.<br>
+                            • Built a dynamic agent-based search framework that gathers, analyzes, and synthesizes information before responding — mimicking human-like query reasoning.<br>
+                            • Created and integrated a Shopify plugin to bring these AI-powered services directly into merchant workflows for enhanced product discovery.<br>
+                            <b>Technologies</b> - Python, FastAPI, MongoDB, Typesense, LangChain, Transformers, HuggingFace, Docker, Pydantic
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="timeline-item">
+                    <div class="timeline-circle">2022</div>
+                    <div class="timeline-content">
+                        <div class="job-title">
+                            Associate Software Engineer
+                            <span class="company">Innovaccer</span>
+                        </div>
+                        <div class="job-description">
+                            • Product Stability - Played a key role in reducing a consistent count of 100+ open bugs to
+                            zero within a quarter,
+                            enhancing overall product stability and increasing test case code coverage. <br>
+                            • Worklist Integration - Enabled a separate product to leverage our Worklist functionality
+                            by integrating their APIs into our
+                            product and making our legacy APIs compatible with their requirements. <br>
+                            • DocuSign POC - Carried out a POC to evaluate the suitability of DocuSign for our product
+                            requirements. <br>
+                            <b>Technologies</b> - Python, Django, Flask, MongoDB, Redis, Celery, PyTest
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <div class="title">
+            projects
+        </div>
+        <div class="projects-container">
+            <div class="text">
+                <div class="heading">
+                    Ask PDF
+                </div>
+                <div class="description">
+                    A FastAPI-based application that uses LangChain to query PDFs via RAG while maintaining conversational context. It features agentic tools like Web Search and Math and supports multilingual speech input with Whisper AI for transcription and Mistral-7B as a Language Model.
+                </div>
+                <div class="tech">
+                    <span>Tech Stack:</span> LangChain, FastAPI, HuggingFace, LangChain Tools and Agents, Javascript
+                </div>
+                <div class="links">
+                    <a href="https://github.com/itsvineetkr/ask-pdf" target="_blank">github</i></a>
+                </div>
+            </div>
+            <img src="images/project1.jpg" alt="">
+        </div>
+        <div class="projects-container">
+            <div class="text">
+                <div class="heading">
+                    Searching Simulation Using Typesense
+                </div>
+                <div class="description">
+                    A streamlit application to demonstrate searching from desired large dataset (xlsx, csv, json, jsonl) using typesense. Offers voice search using Whisper and Typed search query.
+                </div>
+                <div class="tech">
+                    <span>Tech Stack:</span> Typesense, Streamlit, Python
+                </div>
+                <div class="links">
+                    <a href="https://github.com/itsvineetkr/Learning-Typesense" target="_blank">github</i></a>
+                </div>
+            </div>
+            <img src="images/project2.jpg" alt="">
+        </div>
+        <!-- <div class="projects-container">
+            <div class="text">
+                <div class="heading">
+                    Corevibe
+                </div>
+                <div class="description">
+                    A Django-based web application that simulates the possible use case of Generative AI in Fitness applications. It provides AI features to tell you about your day and whether you're healthy or not based on the data present. It uses HuggingFace Mistral-7B-Instruct-v0.3 as a Language Model.
+                </div>
+                <div class="tech">
+                    <span>Tech Stack:</span> Django, REST API, JavaScript, HTML/CSS, SQLite, HuggingFace
+                </div>
+                <div class="links">
+                    <a href="https://github.com/itsvineetkr/CoreVibe" target="_blank">github</i></a>
+                </div>
+            </div>
+            <img src="images/project3.png" alt="">
+        </div> -->
+        <div class="projects-container">
+            <div class="text">
+                <div class="heading">
+                    Club Events Registrations & Management
+                </div>
+                <div class="description">
+                    A platform for college-wide club event organization, handling both individual and team- based event registrations, with admin controls for managing events and registrations data.
+                </div>
+                <div class="tech">
+                    <span>Tech Stack:</span> Django, REST API, JavaScript, HTML/CSS, SQLite
+                </div>
+                <div class="links">
+                    <a href="https://github.com/itsvineetkr/the_tech_society" target="_blank">github</i></a>
+                </div>
+            </div>
+            <img src="images/project4.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="mail" id="contact">
+            <p>I'm always interested in new projects. <br>If you have any questions or want to discuss an idea, send me an email to</p>
+            <a href="mailto:itsvineetkr@gmail.com">itsvineetkr@gmail.com</a>
+        </div>
+
+        <div class="contact">
+            <div class="contact-content">
+                <div class="title-name">    
+                    Vineet Kumar
+                </div>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/itsvineetkr" target="_blank">linkedin</a></li>
+                    <li><a href="https://github.com/itsvineetkr" target="_blank">github</a></li>
+                    <li><a href="https://www.instagram.com/vineetkumar.ind" target="_blank">instagram</a></li>
+                </ul>
+            </div>
+            <div class="contact-footer">
+                <div class="left">
+                    2025 &copy; made by Vineet
+                </div>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/itsvineetkr" target="_blank">linkedin,</a></li>
+                    <li><a href="https://github.com/itsvineetkr" target="_blank">github,</a></li>
+                    <li><a href="https://www.instagram.com/vineetkumar.ind" target="_blank">instagram</a></li>
+                </ul>
+                <div class="right">
+                    available for projects
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
